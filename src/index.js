@@ -5,11 +5,11 @@ const path = require('path');
 const app = express();
 const PORT = 5000; 
 
-//Express config
+//Express configs
 app.use(express.static(path.resolve(__dirname, 'public')));
 
 
-//Handlebars config
+//Handlebars configs
 app.engine('hbs', handlebars.engine({
     extname: 'hbs',
 }));
