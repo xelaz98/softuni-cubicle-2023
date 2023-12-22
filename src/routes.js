@@ -9,4 +9,4 @@ router.get('*', (req, res) => {
     res.redirect('/404');
 });
 
-module.exports = router; 
+module.exports = router;   
